@@ -14,6 +14,7 @@ public class Book {
     private String title;
     private String author;
     private String isbn;
+    @Temporal(TermporalType.DATE)
     private Date publishedDate;
     private Double price;
 
